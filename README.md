@@ -4,3 +4,6 @@ In this example, as the user scrolls down the page, a box slides into view if th
 ## Components that make the app run
 * Cache the window and advert.
 * The height of the end zone is calculated, and stored in variable called endZone.
+* The scroll event triggers an anonymous function every time the user scrolls up or down.
+* A conditional statement checks if the user's position is further from the top of the page than the start of the end zone.
+* If the condition returns true, the box slides in from the right-hand edge of the page. This takes 250 milliseconds.
