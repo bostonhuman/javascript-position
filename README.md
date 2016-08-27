@@ -7,3 +7,10 @@ In this example, as the user scrolls down the page, a box slides into view if th
 * The scroll event triggers an anonymous function every time the user scrolls up or down.
 * A conditional statement checks if the user's position is further from the top of the page than the start of the end zone.
 * If the condition returns true, the box slides in from the right-hand edge of the page. This takes 250 milliseconds.
+
+## How to run the app?
+* In your terminal:
+```
+git clone https://github.com/bostonhuman/javascript-position
+```
+* Open `position.html` to run the app.
